@@ -1,0 +1,44 @@
+#text-area {
+    display: flex;
+    width: 75vw;
+    height: 95%;
+    flex-wrap: wrap;
+    gap: 0;
+    align-content: flex-start;
+}
+
+#editor-body {
+    border: 1px solid;
+    margin: 10px;
+    height: 75vh;
+}
+
+#tool-bar {
+    display: flex;
+    border-top: 1px solid;
+    flex-direction: row;
+    padding: 5px;
+}
+#mode {
+    color: blue;
+}
+
+.text-character {
+    display: flex;
+    justify-content: center;
+    width: 0.6rem;
+    height: 1.25rem;
+}
+
+.cursor {
+    background-color: red;
+}
+
+.break {
+    width: 100%;
+    height: 0px;
+}
+
+.break + .break {
+    height: 1.25rem;
+}
